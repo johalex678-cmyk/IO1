@@ -1,6 +1,6 @@
 {
-  "name": "simplex-aula",
-  "version": "1.0.0",
+  "name": "metodos-simplex-paso-a-paso",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
   "scripts": {

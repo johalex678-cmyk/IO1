@@ -9,4 +9,4 @@ const file=path.resolve(root,'.'+(url==='/'?'/index.html':url));
 const data=await readFile(file);
 res.setHeader('Content-Type',({'html':'text/html; charset=utf-8','js':'text/javascript; charset=utf-8','css':'text/css; charset=utf-8'})[file.split('.').pop()]||'application/octet-stream');
 res.setHeader('X-Content-Type-Options','nosniff');res.end(data);
-}catch{res.writeHead(404);res.end('No encontrado');}}).listen(port,'0.0.0.0',()=>console.log(`Simplex Aula en puerto ${port}`));
+}catch{res.writeHead(404);res.end('No encontrado');}}).listen(port,'0.0.0.0',()=>console.log(`Métodos Simplex Paso a Paso en puerto ${port}`));
